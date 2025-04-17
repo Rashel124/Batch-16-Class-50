@@ -1,0 +1,50 @@
+
+Linkup korar jonno at use korte hobe>>=================
+
+new mysql('hostname', 'username', 'password', 'databasename');
+
+SELECT * FROM students;
+
+mysqli_query('connection', 'query');
+
+
+$i = 0;
+
+while (range){
+
+}
+
+
+echo 'The result is='.$result'test'
+
+
+GET
+POST
+PUT
+DELETE
+ 
+
+INSERT INTO Students (name, roll, class, phone, email, address) VALUES ('Rahim', 3, 'three', '01910xxx', 'abcd@gmail.com', 'Saver, Dhaka')
+
+
+$_GET
+$_POST 
+
+$query = "INSERT INTO Students (name, roll, class, phone, email, address) VALUES ('Rahim', 3, 'three', '01910xxx', 'abcd@gmail.com', 'Saver, Dhaka')";
+
+$insertData = mysqli_query($connection, $query);
+
+
+DELETE QUERY:========
+
+DELETE FROM students WHERE id 
+
+
+Data tule niye asar jonno: ===
+
+SELECT * FROM students WHERE id = 8
+
+
+Data edit korar jonno: ==
+
+UPDATE students SET name = 'Rakib', roll = 23, class = 'Nine', phone = '01910xxx', email = 'abc@gmail.com', address = 'Saver, Dhaka' WHERE id = 3;
